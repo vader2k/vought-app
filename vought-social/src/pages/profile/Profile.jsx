@@ -8,7 +8,7 @@ const Profile = () => {
   return (
     <div>
       <div className='flex items-center justify-center flex-col relative w-[100%] overflow-hidden'>
-        <img src={cover1} className='sm:h-[400px] object-fill w-[100%]'/>
+        <img src={cover1} className='sm:h-[400px] object-fill sm:w-[100%] w-[800px]'/>
         <img src={onyedika} className='sm:w-[200px] w-[100px] sm:h-[200px] h-[100px] object-cover rounded-full absolute sm:top-[300px] top-[250px]'/>
         <p className='sm:mt-[100px] mt-[60px] font-semibold sm:text-[1.5rem] text-[1rem]'>Onyedika Chigelu</p>
       </div>
