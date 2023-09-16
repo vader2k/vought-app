@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/**************************left sidebar and right sidebar css position settings**************************************/
+.left-bar{
+    top: 60px;
+    position: sticky;
+    height: calc(100vh - 60px) ;
+}
+.right-bar{
+    top: 70px;
+    position: sticky;
+    height: calc(100vh - 70px) ;
+
+}
+.right-bar::-webkit-scrollbar{
+    display: none;
+}
+.left-bar::-webkit-scrollbar{
+    display: none;
+}
+
+/**************************right sidebar css**************************************/
+.right-first{
+    box-shadow: 2px 3px 0px 2px lightgrey;
+}
+
+.stories::-webkit-scrollbar{
+    display: none;
+}
+
+.shadow{
+    box-shadow: 2px 3px 0px 2px lightgrey;
+    border-radius: 20px;
+}
