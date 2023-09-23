@@ -31,7 +31,7 @@ const Profile = () => {
             </div>
         </div>
           <div className='bg-[#5271ff] text-white p-3 text-[12px] border-none outline-none cursor-pointer w-[80px] text-center m-auto mt-6'>Follow</div>
-         <Post/>
+         <Post className='dark:text-white'/>
       </div>
     </div>
   )
