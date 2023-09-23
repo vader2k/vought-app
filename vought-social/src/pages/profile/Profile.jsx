@@ -16,7 +16,7 @@ const Profile = () => {
       <div className='sm:py-[20px] sm:px-[70px] py-[10px] px-[20px] dark:text-white'>
         <div className='flex items-center justify-evenly mt-[20px] gap-14 shadow py-5 px-5 mr-3 sm:mr-0'>
             <div className='flex-1 gap-3 items-center justify-center sm:flex hidden'>
-              <FaFacebook className='sm:text-[25px]  text-gray-600'/> <FaInstagram  className='text-[25px] text-gray-600'/> <AiOutlineTwitter className='text-[25px] text-gray-600'/> <FaLinkedin  className='text-[25px] text-gray-600'/> <FaPinterest  className='text-[25px] text-gray-600'/>
+              <FaFacebook className='sm:text-[25px] text-gray-600 dark:text-white'/> <FaInstagram  className='text-[25px] text-gray-600 dark:text-white'/> <AiOutlineTwitter className='text-[25px] text-gray-600 dark:text-white'/> <FaLinkedin  className='text-[25px] text-gray-600 dark:text-white'/> <FaPinterest  className='text-[25px] text-gray-600 dark:text-white'/>
             </div>
             <div className='flex flex-1 gap-8 items-center justify-center'>
               <div className='flex items-center justify-center gap-4'>
