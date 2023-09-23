@@ -3,7 +3,7 @@ import { leftbarFirst,leftbarSecond,leftbarThird } from '../../constants'
 
 const Leftbar = () => {
   return (
-    <section className='flex-[2] sticky left-bar overflow-y-scroll sm:block hidden'>
+    <section className='flex-[2] sticky left-bar overflow-y-scroll sm:block hidden dark:bg-gray-950 dark:text-white'>
       <div className='p-[20px] flex flex-col gap-[30px]'>
         <div className='flex flex-col gap-[20px]  '>
           <div className='flex items-center gap-5'>

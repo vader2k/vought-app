@@ -1,16 +1,16 @@
 import React from 'react'
-import { gojo1,gojo2,gojo3,gojo4, danny, chigelu, onyedika } from '../../assets'
+import { drill,chigelu,ghost, ppic, vader,gojo1, gojo4, cover4, cat , onyedika, danny, shoes} from '../../assets'
 
 const Rightbar = () => {
   return (
-    <section className='flex-[3] right-bar  sticky left-bar overflow-y-scroll md:flex hidden'>
+    <section className='flex-[3] right-bar  sticky left-bar overflow-y-scroll md:flex hidden dark:bg-gray-950 dark:text-white'>
       <div>
         {/*First section*/}
         <div className='flex flex-col gap-5 right-first py-10 px-10'>
           <span className='font-semibold text-gray-500 text-[12px]'>Suggestions for you</span>
           <div className='flex items-center justify-between'>
             <div className='flex gap-[10px] items-center'>
-              <img className='w-[30px] rounded-full h-[30px] object-cover' src={gojo1}/>
+              <img className='w-[30px] rounded-full h-[30px] object-cover' src={ppic}/>
               <p>onyekwelu jesse</p>
             </div>
             <div  className='flex gap-[10px] items-center'>
@@ -20,7 +20,7 @@ const Rightbar = () => {
           </div>
           <div className='flex items-center justify-between'>
             <div className='flex gap-[10px] items-center'>
-              <img className='w-[30px] rounded-full h-[30px] object-cover' src={gojo2}/>
+              <img className='w-[30px] rounded-full h-[30px] object-cover' src={chigelu}/>
               <p>walter chigelu</p>
             </div>
             <div  className='flex gap-[10px] items-center'>
@@ -35,7 +35,7 @@ const Rightbar = () => {
         <span className='font-semibold text-gray-500 text-[12px]'>Latest Activities</span>
         <div className='flex items-center gap-20 '>
             <div className='flex gap-[10px] items-center'>
-              <img className='w-[30px] rounded-full h-[30px] object-cover' src={gojo1}/>
+              <img className='w-[30px] rounded-full h-[30px] object-cover' src={ppic}/>
               <p>onyekwelu jesse</p>
             </div>
             <div  className='flex gap-[20px] items-center'>
@@ -45,7 +45,7 @@ const Rightbar = () => {
           </div>
           <div className='flex items-center justify-between'>
             <div className='flex gap-[10px] items-center'>
-              <img className='w-[30px] rounded-full h-[30px] object-cover' src={gojo1}/>
+              <img className='w-[30px] rounded-full h-[30px] object-cover' src={ppic}/>
               <p>onyekwelu jesse</p>
             </div>
             <div  className='flex gap-[20px] items-center'>
@@ -54,7 +54,7 @@ const Rightbar = () => {
             </div>
           </div>       <div className='flex items-center justify-between'>
             <div className='flex gap-[10px] items-center'>
-              <img className='w-[30px] rounded-full h-[30px] object-cover' src={gojo4}/>
+              <img className='w-[30px] rounded-full h-[30px] object-cover' src={cat}/>
               <p>striker</p>
             </div>
             <div  className='flex gap-[20px] items-center'>
@@ -63,7 +63,7 @@ const Rightbar = () => {
             </div>
           </div>       <div className='flex items-center justify-between'>
             <div className='flex gap-[10px] items-center'>
-              <img className='w-[30px] rounded-full h-[30px] object-cover' src={gojo3}/>
+              <img className='w-[30px] rounded-full h-[30px] object-cover' src={cover4}/>
               <p>chekube precious</p>
             </div>
             <div  className='flex gap-[20px] items-center'>
@@ -78,7 +78,7 @@ const Rightbar = () => {
         <span className='font-semibold text-gray-500 text-[12px]'>Online</span>
         <div>
             <div className='flex gap-[10px] items-center relative'>
-              <img className='w-[30px] rounded-full h-[30px] object-cover' src={gojo1}/>
+              <img className='w-[30px] rounded-full h-[30px] object-cover' src={drill}/>
               <p>onyekwelu jesse</p>
               <div className='w-[12px] h-[12px] rounded-[50%] bg-lime-400 absolute top-0 left-[20px]'/>
             </div>
@@ -99,14 +99,14 @@ const Rightbar = () => {
           </div> 
           <div className='flex items-center justify-between relative'>
             <div className='flex gap-[10px] items-center'>
-              <img className='w-[30px] rounded-full h-[30px] object-cover' src={gojo2}/>
+              <img className='w-[30px] rounded-full h-[30px] object-cover' src={vader}/>
               <p>chekube precious</p>
               <div className='w-[12px] h-[12px] rounded-[50%] bg-lime-400 absolute top-0 left-[20px]'/>
             </div>
           </div>
           <div className='flex items-center justify-between relative'>
             <div className='flex gap-[10px] items-center'>
-              <img className='w-[30px] rounded-full h-[30px] object-cover' src={gojo3}/>
+              <img className='w-[30px] rounded-full h-[30px] object-cover' src={ghost}/>
               <p>pope precious</p>
               <div className='w-[12px] h-[12px] rounded-[50%] bg-lime-400 absolute top-0 left-[20px]'/>
             </div>
@@ -114,7 +114,7 @@ const Rightbar = () => {
           <div className='flex items-center justify-between relative'>
             <div className='flex gap-[10px] items-center'>
               <img className='w-[30px] rounded-full h-[30px] object-cover' src={danny}/>
-              <p>odukwe daniel</p>
+              <p>O danny</p>
               <div className='w-[12px] h-[12px] rounded-[50%] bg-lime-400 absolute top-0 left-[20px]'/>
             </div>
           </div>
@@ -127,14 +127,14 @@ const Rightbar = () => {
           </div>
           <div className='flex items-center justify-between relative'>
             <div className='flex gap-[10px] items-center'>
-              <img className='w-[30px] rounded-full h-[30px] object-cover' src={chigelu}/>
-              <p>wendy chigelu</p>
+              <img className='w-[30px] rounded-full h-[30px] object-cover' src={shoes}/>
+              <p>Melisa</p>
               <div className='w-[12px] h-[12px] rounded-[50%] bg-lime-400 absolute top-0 left-[20px]'/>
             </div>
           </div>
           <div className='flex items-center justify-between relative'>
             <div className='flex gap-[10px] items-center'>
-              <img className='w-[30px] rounded-full h-[30px] object-cover' src={danny}/>
+              <img className='w-[30px] rounded-full h-[30px] object-cover' src={cover4}/>
               <p>kamso obi</p>
               <div className='w-[12px] h-[12px] rounded-[50%] bg-lime-400 absolute top-0 left-[20px]'/>
             </div>

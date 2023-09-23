@@ -10,14 +10,14 @@ function App() {
 
   const Layout = () => {
     return (
-      <div>
+      <div className='dark:bg-gray-950'>
         <Navbar/>
         <div className='flex'>
-          <Leftbar/>
+          <Leftbar className='sm:flex hidden'/>
           <div className='flex-[6]'>
           <Outlet/>
           </div>
-          <Rightbar/>
+          <Rightbar className='sm:flex hidden'/>
 
         </div>
       </div>
@@ -32,6 +32,14 @@ function App() {
   };
 
   const router = createBrowserRouter([
+    {
+      path:'/login',
+      element: <Login/>
+    },
+    {
+      path:'/register',
+      element: <Register/>
+    },
     {
       path:'/',
       element:
@@ -48,17 +56,10 @@ function App() {
         {
           path:'/profile/:id',
           element: <Profile/>
-        }
+        },
       ]
     },
-    {
-      path:'/login',
-      element: <Login/>
-    },
-    {
-      path:'/register',
-      element: <Register/>
-    }
+    
   ])
   return (
     <>

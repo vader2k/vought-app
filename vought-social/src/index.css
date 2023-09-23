@@ -28,7 +28,7 @@
 }
 
 .stories::-webkit-scrollbar{
-    display: none;
+   display: none
 }
 
 .shadow{
