@@ -12,9 +12,9 @@ const PostIcons = ({post}) => {
 
 
   return (
-    <div className='flex flex-col gap-[50px] w-[100%] m-auto'>
-        <div className='container sm:p-20 py-10 '>
-        <div className='user flex items-center justify-between'>
+    <div className='flex flex-col gap-[50px] w-[100%] m-auto p-10'>
+        <div className='container p-5 my-10 dark:bg-[#222] rounded-[20px] edit'>
+        <div className='user flex items-center justify-between '>
             <div className='userinfo flex gap-[20px] items-center justify-center '>
                 <img className='w-[40px] h-[40px] rounded-[50%] object-cover' src={post.profilePic} alt=''/>
                 <div className='details flex flex-col'>

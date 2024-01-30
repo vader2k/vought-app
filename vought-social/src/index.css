@@ -5,9 +5,9 @@
 
 /**************************left sidebar and right sidebar css position settings**************************************/
 .left-bar{
-    top: 60px;
+    top: 70px;
     position: sticky;
-    height: calc(100vh - 60px) ;
+    height: calc(100vh - 70px) ;
 }
 .right-bar{
     top: 70px;
@@ -23,15 +23,15 @@
 }
 
 /**************************right sidebar css**************************************/
-.right-first{
-    box-shadow: 2px 3px 0px 2px lightgrey;
-}
 
 .stories::-webkit-scrollbar{
    display: none
 }
 
-.shadow{
-    box-shadow: 2px 3px 0px 2px lightgrey;
+.edit{
+    -webkit-box-shadow:0px 0px 15px 1px rgba(0,0,0,0.09);
+    -moz-box-shadow:0px 0px 15px 1px rgba(0,0,0,0.09);
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.09);
+
     border-radius: 20px;
 }

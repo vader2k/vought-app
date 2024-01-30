@@ -33,7 +33,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className={`flex justify-between items-center py-[10px] px-[20px] h-[50px] border-b border-gray-300 sticky top-0 z-[99] bg-white dark:bg-gray-950 `}>
+    <nav className={`flex justify-between items-center py-[30px] px-[20px] h-[80px] border-b border-gray-300 sticky top-0 z-[99] bg-white dark:bg-[#222] dark:text-white `}>
         <div className='flex items-center gap-[30px]'>
           <Link to='/' className='no-underline'>
           <span className='font-bold text-[20px] text-blue-800 sm:flex hidden'>Vought Social</span>
@@ -48,7 +48,7 @@ const Navbar = () => {
           <AiFillAppstore className='dark:text-white'/>
           <div className='flex items-center gap-2'>
             <AiOutlineSearch className='sm:flex hidden dark:text-white'/>
-            <input className='border-b border-gray-300 outline-none px-5 rounded-[5px] sm:flex hidden' type='text' placeholder='search...' />
+            <input className='border-b border-gray-300 bg-transparent outline-none px-5 rounded-[5px] sm:flex hidden' type='text' placeholder='search...' />
           </div>
         </div>
 

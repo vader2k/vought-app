@@ -3,10 +3,10 @@ import { drill,chigelu,ghost, ppic, vader,gojo1, gojo4, cover4, cat , onyedika, 
 
 const Rightbar = () => {
   return (
-    <section className='flex-[3] right-bar  sticky left-bar overflow-y-scroll md:flex hidden dark:bg-gray-950 dark:text-white'>
-      <div>
+    <section className='flex-[3] right-bar  sticky left-bar overflow-y-scroll md:flex hidden dark:bg-[#222] dark:text-white'>
+      <div className='b'>
         {/*First section*/}
-        <div className='flex flex-col gap-5 right-first py-10 px-10'>
+        <div className='flex flex-col gap-5 right-first py-10 px-10 edit'>
           <span className='font-semibold text-gray-500 text-[12px]'>Suggestions for you</span>
           <div className='flex items-center justify-between'>
             <div className='flex gap-[10px] items-center'>
@@ -31,7 +31,7 @@ const Rightbar = () => {
         </div>
 
            {/* second section */}
-        <div className='flex flex-col gap-5 right-first py-10 px-10'>
+        <div className='flex flex-col gap-5 right-first py-10 px-10 edit'>
         <span className='font-semibold text-gray-500 text-[12px]'>Latest Activities</span>
         <div className='flex items-center gap-20 '>
             <div className='flex gap-[10px] items-center'>
@@ -74,7 +74,7 @@ const Rightbar = () => {
         </div>
 
         {/*third section for the right sidebar*/}
-        <div className='flex flex-col gap-5 right-first py-10 px-10'>
+        <div className='flex flex-col gap-5 right-first py-10 px-10 edit'>
         <span className='font-semibold text-gray-500 text-[12px]'>Online</span>
         <div>
             <div className='flex gap-[10px] items-center relative'>

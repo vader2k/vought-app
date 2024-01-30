@@ -6,7 +6,7 @@ import {Post} from '../../components'
 
 const Profile = () => {
   return (
-    <div>
+    <div className='dark:bg-gray-700 dark:text-white'>
       <div className='flex items-center justify-center flex-col relative w-[100%] overflow-hidden dark:text-white'>
         <img src={cover1} className='sm:h-[400px] object-fill sm:w-[100%] w-[800px]'/>
         <img src={onyedika} className='sm:w-[200px] w-[100px] sm:h-[200px] h-[100px] object-cover rounded-full absolute sm:top-[300px] top-[250px]'/>
@@ -31,7 +31,7 @@ const Profile = () => {
             </div>
         </div>
           <div className='bg-[#5271ff] text-white p-3 text-[12px] border-none outline-none cursor-pointer w-[80px] text-center m-auto mt-6'>Follow</div>
-         <Post className='dark:text-white'/>
+          <Post className='dark:text-white'/>
       </div>
     </div>
   )

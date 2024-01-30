@@ -10,7 +10,7 @@ function App() {
 
   const Layout = () => {
     return (
-      <div className='dark:bg-gray-950'>
+      <div className=''>
         <Navbar/>
         <div className='flex'>
           <Leftbar className='sm:flex hidden'/>
